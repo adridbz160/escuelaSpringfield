@@ -1,0 +1,27 @@
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+			color: #000;
+		}
+		figure>img{
+			width: 95%;
+			margin: auto;
+		}
+		label{
+			display: inline-block;
+			min-width: 100px;
+		}
+
+		@font-face{
+			src: url('./public/fonts/simpson.otf');
+			font-family: simpson;
+			font-weight: normal;
+			font-style: normal;
+		}
+
+		h1{
+			font-family: simpson;
+		}

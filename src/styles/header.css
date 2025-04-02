@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('./public/img/fondoHeader.png');
+    background-size: 100%;
+    padding: 10vw 0;
+}
+header>h1{
+    text-align: center;
+    font-size: 5vw;
+    color: #E6DB7E;
+    text-shadow: 4px 4px 4px #000;
+
+}

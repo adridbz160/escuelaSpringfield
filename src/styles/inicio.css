@@ -1,0 +1,28 @@
+
+table{
+    width: 100%;
+}
+table, table td, table th {
+    margin: 1%;
+    padding: 1%;
+}
+
+table th {
+    color: #fff;
+    background-color: #4c4c4c;
+}
+
+table tr:nth-of-type(even){
+    background-color: #E6DB7E;
+}
+
+table tr:nth-of-type(2) td{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 313px){
+    main>article>section>article>figure, main>section>article>section>figure{
+        min-width: 50px;
+    }
+}

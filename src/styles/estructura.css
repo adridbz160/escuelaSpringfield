@@ -1,0 +1,14 @@
+
+
+	main{
+		padding: 2%;
+		background-color: #fff;
+	}
+
+	main h2, main h3{
+		color: #fff;
+		background-color: #4c4c4c;
+		border-radius: 5px;
+		padding: 0.4% 0.4% 0.4% 0.6%;
+	}
+
