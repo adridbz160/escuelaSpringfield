@@ -1,6 +1,5 @@
 main{
     padding: 2%;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,8 +85,40 @@ table tr:nth-of-type(2) td{
     font-weight: bold;
 }
 
-@media screen and (max-width: 313px){
-    main>article>section>article>figure, main>section>article>section>figure{
-        min-width: 50px;
+@media screen and (max-width:900px){
+
+    p{
+        font-size: 1.8dvw!important;
+    }
+
+    main section:last-of-type article{
+        width: 100%!important;
+    }
+
+    main section:last-of-type div{
+        flex-direction: column!important;
+    }
+
+    table, table td, table th{
+        font-size: 1.8dvw!important;
     }
 }
+
+@media screen and (max-width:600px){
+    main>section:nth-of-type(2)>article{
+        flex-direction: column!important;
+    }
+    main>section:nth-of-type(2)>article figure{
+        padding: 2dvw!important;
+    }
+    
+    main section:last-of-type article:last-of-type>section:last-of-type{
+        flex-direction: column!important;
+    }
+    main section:last-of-type article:last-of-type>section:last-of-type figure{
+        width: 30dvw;
+    }
+    main section:last-of-type div {
+        flex-direction: column-reverse!important;
+    }
+    }

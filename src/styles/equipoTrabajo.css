@@ -1,0 +1,100 @@
+main{
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+main>section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+main>section>h2{
+		color: #fff;
+		background-color: #4c4c4c;
+		font-size: 1.2em;
+		padding: 0.6em;
+		width: 100%;
+}
+
+			main p{
+				text-align: left;
+			}
+
+			
+
+			main>section>section>article{
+				border: 1px solid #000;
+				margin: 1%;
+				padding: 1%;
+				display: flex;
+				align-items: center;
+			}
+			main>section>section>article:nth-of-type(even){
+				flex-direction: row-reverse;
+				background-color: #E6DB7E;
+			}
+
+			main>section>section>article figure{
+				text-align: center;
+				min-width: 140px;
+				max-width: 140px;
+			}
+
+			main>section>section>article>section{
+				padding: 1em;
+			}
+			main>section>section>article p{
+				margin: 1em 0;
+				font-size: 1em;
+				overflow: auto;
+				max-height: 100px;
+			}
+
+			main>section>section>article h4{
+				font-size: 1.5em;
+				text-decoration: underline;
+				font-style: italic;
+			}
+
+
+			@media screen and (max-width: 900px){
+
+				main>section>section>article, main>section>section>article>section{
+					padding: 1dvw!important;
+				}
+
+				main{
+					padding: 2dvw 4dvw!important;
+				}
+
+				main>section>h2{
+					font-size: 2dvw!important;
+					padding: 1dvw;
+
+			}
+			main>section>section>article p{
+				font-size: 1.2dvw!important;
+			}
+				main>section>section>article h4{
+					font-size: 3dvw!important;
+				}
+				main>section>section>article figure{
+					min-width: 10dvw!important;
+					width: 10dvw!important;
+					max-width: 10dvw!important;
+				}
+				main>section>section,
+				main>section>section:nth-of-type(even){
+					flex-direction: column;
+				}
+
+				main>section>section>article{
+					display: flex;
+					flex-direction: column!important;
+				}
+			}
