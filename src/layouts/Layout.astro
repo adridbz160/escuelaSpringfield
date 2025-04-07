@@ -3,10 +3,10 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Navegacion from "../components/Nav.astro";
 import "./src/styles/global.css";
-import "./src/styles/estructura.css";
 import "./src/styles/header.css";
 import "./src/styles/nav.css";
 import "./src/styles/footer.css";
+import "./src/styles/responsive.css";
 ---
 
 <!doctype html>
@@ -18,11 +18,19 @@ import "./src/styles/footer.css";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>Escuela 1ª de Springfield</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <Header />
     <Navegacion />
     <slot />
     <Footer />
+    <script src="../js/navegacion.js"></script>
   </body>
 </html>

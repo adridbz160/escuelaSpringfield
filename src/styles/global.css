@@ -6,6 +6,18 @@
 			text-decoration: none;
 			color: #000;
 		}
+		html{
+			background-image: url('../img/fondopagina.webp');
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		body{
+			width: 80%;
+			margin: 0 auto;
+			display: grid;
+    		min-height: 100dvh;
+    		grid-template-rows: auto 1fr auto;
+		}
 		figure>img{
 			width: 95%;
 			margin: auto;
