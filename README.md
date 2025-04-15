@@ -12,5 +12,6 @@ Incluye las siguientes secciones:
 - Equipo de Profesores
 - Lista de Castigados
 - Contacto
+- Log-In
 
-Sin embargo, aun estoy haciendo las modificaciones pertinentes, por lo que puede que el aspecto no sea el indicado, e incluso falten algunas paginas.
+En cada página podras ver informacion no solo del edificio sino tambien, del profesorado, alumnos y trabajadores extras del centro.
