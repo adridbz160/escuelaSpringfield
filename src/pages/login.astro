@@ -6,16 +6,67 @@ import "../styles/login.css";
 <Layout>
   <main>
     <section>
-      <l-ring size="”60”" color="coral"></l-ring>
-
-      <div class="container"></div>
-      <h2>ERROR 404</h2>
-      <p>
-        Debido a problemas técnicos, la página no ha conseguido cargar su
-        contenido. Por favor, pruebe en otro momento o utilice el formulario de
-        contacto si la página sigue sin estar disponible, gracias y disculpe las
-        molestias.
-      </p>
+      <h2>Log-in</h2>
+      <section>
+        <article>
+          <h2>Inicio de Sesión</h2>
+          <form action="" class="inicioSesion">
+            <input type="email" placeholder="Email" name="email" required />
+            <input
+              type="password"
+              placeholder="Contraseña"
+              name="contraseña"
+              required
+            />
+            <label>
+              <input type="checkbox" name="recordar" value="1" />
+              Mantener tu sesión iniciada
+            </label>
+            <button>Iniciar sesión</button>
+          </form>
+        </article>
+        <article>
+          <h2>Registro</h2>
+          <form action="" class="registro">
+            <div>
+              <div class="datos1">
+                <input type="text" placeholder="Usuario" name="user" required />
+                <input
+                  type="file"
+                  id="avatar"
+                  name="avatar"
+                  accept="image/png, image/jpeg"
+                />
+                <input
+                  type="password"
+                  placeholder="Contraseña"
+                  name="contraseña"
+                  required
+                />
+              </div>
+              <div class="datos2">
+                <input type="email" placeholder="Email" name="email" required />
+                <input
+                  type="email"
+                  placeholder="Repite tu Email"
+                  name="repiteEmail"
+                  required
+                />
+                <input
+                  type="password"
+                  placeholder="Repite tu contraseña"
+                  name="repiteContraseña"
+                  required
+                />
+              </div>
+            </div>
+            <div class="botones">
+              <button>Registrarse</button>
+              <button type="reset">Borrar datos</button>
+            </div>
+          </form>
+        </article>
+      </section>
     </section>
   </main>
 </Layout>

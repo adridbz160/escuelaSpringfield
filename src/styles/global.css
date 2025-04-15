@@ -7,7 +7,7 @@
 			color: #000;
 		}
 		html{
-			background-image: url('../img/fondopagina.webp');
+			background-image: url('/public/img/fondopagina.webp');
 			background-size: cover;
 			background-attachment: fixed;
 		}
@@ -28,7 +28,7 @@
 		}
 
 		@font-face{
-			src: url('./public/fonts/simpson.otf');
+			src: url('/fonts/simpson.otf');
 			font-family: simpson;
 			font-weight: normal;
 			font-style: normal;

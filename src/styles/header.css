@@ -8,7 +8,7 @@ header>section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url('./public/img/fondoHeader.png');
+    background-image: url('/public/img/fondoHeader.png');
     background-size: 100%;
     padding: 10vw 0;
     background-color: #000;
